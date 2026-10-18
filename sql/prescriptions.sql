@@ -19,7 +19,7 @@ prescription_date DATE,
 PRIMARY KEY (prescription_id)
 );
 
-LOAD DATA LOCAL INFILE '~/assessments/hpdm206z/assessment1/hds-mod1-assess1/data/prescriptions.csv'
+LOAD DATA LOCAL INFILE '~/assessments/hpdm206Z/assessment1/hds-mod1-assess1/data/prescriptions.csv'
 INTO TABLE prescriptions
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES (prescription_id, patient_id, doctor_id, medication, prescription_date)

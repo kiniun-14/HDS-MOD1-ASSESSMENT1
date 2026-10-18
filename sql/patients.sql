@@ -20,7 +20,7 @@ doctor_id INT NOT NULL,
 PRIMARY KEY (patient_id)
 );
 
-LOAD DATA LOCAL INFILE '~/assessments/hpdm206z/assessment1/hds-mod1-assess1/data/patients.csv'
+LOAD DATA LOCAL INFILE '~/assessments/hpdm206Z/assessment1/hds-mod1-assess1/data/patients.csv'
 INTO TABLE patients
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES (patient_id, name, date_of_birth, address, role, doctor_id)
