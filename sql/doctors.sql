@@ -8,7 +8,8 @@ Note:
 =======================
 */
 
-DROP TABLE IF EXSISTS doctors
+DROP TABLE IF EXISTS doctors;
+
 CREATE TABLE doctors
 (
 doctor_id INT unsigned NOT NULL,
@@ -20,7 +21,7 @@ hospital_id INT unsigned NOT NULL,
 PRIMARY KEY (doctor_id)
 );
 
-LOAD DATA LOCAL INFILE '~/assessments/hpdm206z/assessment1/hds-mod1-assess1/data/doctors.csv' 
+LOAD DATA LOCAL INFILE '~/assessments/hpdm206z/assessment1/hds-mod1-assess1/data/doctors.csv'
 INTO TABLE doctors
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES (doctor_id, name, date_of_birth, address, role, hospital_id)
