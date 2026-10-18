@@ -10,8 +10,14 @@ note:
 DROP TABLE IF EXISTS patients_doctors;
 
 CREATE TABLE patients_doctors AS
-SELECT  patients.patient_id, patients.name, patients.date_of_birth, patients.address, doctors.doctor_id
-FROM patients 
+SELECT
+patients.patient_id,
+patients.name AS patient_name,
+patients.date_of_birth AS patient_dob,
+patients.address AS patient_address,
+doctors.name AS doctor_name,
+doctors.doctor_id
+FROM patients
 LEFT JOIN  doctors
 ON patients.doctor_id = doctors.doctor_id
 ;
