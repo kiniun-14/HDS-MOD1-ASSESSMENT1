@@ -13,5 +13,5 @@ CREATE TABLE patients_doctors AS
 SELECT *
 FROM patients 
 LEFT JOIN  doctors
-ON patients.doctor_id = doctors.person_id
+ON patients.doctor_id = doctors.doctor_id
 ;

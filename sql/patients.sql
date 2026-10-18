@@ -11,17 +11,17 @@ DROP TABLE IF EXISTS 'patients';
 
 CREATE TABLE patients
 (
-person_id INT unsigned NOT NULL AUTO_INCREMENT,
+patient_id INT unsigned NOT NULL AUTO_INCREMENT,
 name VARCHAR(150) NOT NULL,
 date_of_birth DATE NOT NULL,
 address VARCHAR(255) NOT NULL,
 role VARCHAR(150) NOT NULL,
-hospital_id INT NOT NULL,
-PRIMARY KEY (person_id)
+doctor_id INT NOT NULL,
+PRIMARY KEY (patient_id)
 );
 
 LOAD DATA LOCAL INFILE '~/assessments/hpdm206z/assessment1/hds-mod1-assess1/data/patients.csv' 
 INTO TABLE patients
 FIELDS TERMINATED BY ','
-IGNORE 1 LINES (person_id, name, date_of_birth, address, role, hospital_id)
+IGNORE 1 LINES (patient_id, name, date_of_birth, address, role, doctor_id)
 ;

@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS 'hospitals';
 
 CREATE TABLE hospitals
 (
-hospital_id INT unsigned NOT NULL AUTO_INCREMENT,
+hospital_id INT unsigned NOT NULL,
 name VARCHAR(150) NOT NULL,
 address VARCHAR(255) NOT NULL,
 size INT unsigned NOT NULL,
@@ -22,7 +22,7 @@ PRIMARY KEY (hospital_id)
 );
 
 LOAD DATA LOCAL INFILE '~/assessments/hpdm206z/assessment1/hds-mod1-assess1/data/hospitals.csv' 
-INTO TABLE prescriptions
+INTO TABLE hospitals
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES (hospital_id, name, address, size, type, accreditation_status)
 ;
