@@ -27,17 +27,14 @@ See the database design plan image in documents section.
 
 ## DOCUMENTS
 This folder contains:
-1. ### Hospital database ERD
-   This document shows the tables in the database and the relationship between the tables.
+1. **Hospital database ERD** This document shows the tables in the database and the relationship between the tables.
 
 <img src="images/hosp_db.jpg" alt="Hospital Database Entity Relationship Diagram" width="400">
 
 
-2. ### Hospital database design plan
-   shows the order to follow to replicate the design of the hospital database
+2. **Hospital database design plan** shows the order to follow to replicate the design of the hospital database
    
 <img src="images/Hosp_database_plan.jpg" alt="Hospital Database Design Plan" width="350">
-
 
 
 ## QUERIES
