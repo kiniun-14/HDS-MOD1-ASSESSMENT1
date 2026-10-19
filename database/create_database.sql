@@ -1,1 +1,1 @@
-CREATE DATABASE hospital;
+CREATE DATABASE hospital_database;
