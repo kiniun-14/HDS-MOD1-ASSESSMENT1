@@ -2,7 +2,7 @@
 ======================================================
 Filename: 
 Purpose: Create hospitals table in hospital database and populate with data from csv file
-Author: Ari Ajibade
+Author: Kiniun
 Note:
 ======================================================
 */

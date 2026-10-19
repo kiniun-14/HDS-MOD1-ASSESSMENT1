@@ -2,7 +2,7 @@
 ==========================================================================
 filename:database/sql/prescriptions.sql
 purpose:  Create prescription table and populate with data from .csv file
-author: Ari Ajibade
+author: Kiniun
 note
 ==========================================================================
 */

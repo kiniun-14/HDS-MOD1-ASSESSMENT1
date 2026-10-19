@@ -2,7 +2,7 @@
 ================================
 filename:
 purpose: Create a patients table and populate with data from csv file
-author: Ari Ajibade
+author: Kiniun
 note
 ================================
 */

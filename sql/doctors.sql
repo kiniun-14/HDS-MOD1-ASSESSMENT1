@@ -2,7 +2,7 @@
 =======================
 Filename:
 Purpose: Create doctors table and populate with data from csv file
-Author: Ari Ajibade
+Author: Kiniun
 Note:
 
 =======================
